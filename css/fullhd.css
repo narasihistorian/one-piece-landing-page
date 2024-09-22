@@ -1,8 +1,8 @@
 /* font used */
 
 @font-face {
-  font-family: 'DrukBoldTrial';
-  src: url('../assets/fonts/Druk-Bold-Trial.otf') format('truetype');
+  font-family: "DrukBoldTrial";
+  src: url("../assets/fonts/Druk-Bold-Trial.otf") format("truetype");
 }
 
 /* global style  */
@@ -21,10 +21,10 @@
 
   /* font  */
 
-  --drukBoldTrial: 'DrukBoldTrial';
-  --monasansLightNarrow: 'MonaSansLightNarrow';
-  --monaSansLight: 'MonaSansLight';
-  --monaSansBold: 'MonaSansBold';
+  --drukBoldTrial: "DrukBoldTrial";
+  --monasansLightNarrow: "MonaSansLightNarrow";
+  --monaSansLight: "MonaSansLight";
+  --monaSansBold: "MonaSansBold";
 }
 
 * {
@@ -103,7 +103,7 @@ html.lenis {
 
 .image-title-animation h1 {
   font-size: 6rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-weight: bold;
@@ -163,7 +163,7 @@ nav {
 .logo-navbar a {
   font-size: calc(1rem + 0.5vw);
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-weight: bold;
@@ -213,7 +213,7 @@ nav {
 
 .about-project h1 {
   font-size: calc(4rem + 0.5vw);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-weight: bold;
@@ -221,7 +221,7 @@ nav {
 
 .about-project p {
   font-size: calc(1rem + 0.5vw);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -332,7 +332,7 @@ nav {
 }
 
 .main-title p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-style: normal;
   color: #000000;
@@ -349,7 +349,7 @@ nav {
   border: 1px solid #000000;
   padding: 1rem 2rem;
   font-size: calc(1rem + 0.5vw);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -406,7 +406,7 @@ nav {
 }
 
 .character-showchase-button-hyperlink {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: calc(1rem + 0.5vw);
@@ -534,7 +534,7 @@ nav {
 }
 
 .page-1-title-about p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: calc(1rem + 0.5vw);
@@ -600,7 +600,7 @@ nav {
 
 .page-2-image-title-container p,
 .page-2-image-title-container-2 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: calc(1rem + 0.5vw);
@@ -700,10 +700,10 @@ nav {
 }
 
 .page-3-image-title-container p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: calc(1.5rem + 0.5vw);
+  font-size: calc(1rem + 0.5vw);
   line-height: 3rem;
   color: black;
 }
@@ -805,7 +805,7 @@ nav {
 }
 
 .page-4-title-about p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: calc(1rem + 1vw);
@@ -823,7 +823,7 @@ nav {
 
 .page-4-title-button-about h6 {
   font-size: calc(1rem + 0.5vw);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   padding: 2rem;
@@ -884,7 +884,7 @@ nav {
   align-items: center;
   border: 1px solid black;
   height: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-weight: bold;
@@ -976,7 +976,7 @@ nav {
 }
 
 .main-title-showchase p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: calc(1rem + 0.5vw);
@@ -1039,7 +1039,7 @@ nav {
 }
 
 .about-me-showchase p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: calc(1rem + 0.5vw);
