@@ -1,0 +1,342 @@
+/* opening animation ---------------------------------------------------------- */
+
+.opening-image {
+  width: 25%;
+}
+
+.image-title-animation h1 {
+  display: none;
+  font-size: 5rem;
+}
+
+/* navbar section ------------------------------------------------------------- */
+
+.logo-mask img {
+  width: 7%;
+}
+
+.logo-navbar a {
+  font-size: calc(1rem + 0.5vw);
+}
+
+.about-project h1 {
+  font-size: calc(4rem + 0.5vw);
+}
+
+.about-project p {
+  font-size: calc(1.5rem + 0.5vw);
+}
+
+/* home sections ---------------------------------------------------------------- */
+
+#home {
+  height: auto;
+}
+
+.home-grid-container {
+  grid-template-columns: 40% 20% 20%;
+  grid-template-rows: 40% 40% 50% 70%;
+}
+
+/* main home video bg svg text ----------------------------------------------------- */
+
+.svg-text text {
+  font-size: 2rem;
+  transform: translate(32%, 85%);
+}
+
+/* main home main title explore card -------------------------------------------------- */
+
+.main-title p {
+  font-size: calc(1rem + 0.5vw);
+}
+
+.main-button-home a {
+  font-size: calc(1rem + 0.5vw);
+}
+
+/* main home character menu & showchase card -------------------------------------- */
+
+.character-menu-button-hyperlink,
+.character-showchase-button-hyperlink {
+  font-size: calc(1rem + 0.5vw);
+}
+
+/* grid home controler -------------------------------------------------------- */
+
+.main-title {
+  grid-column: 2/5;
+  grid-row: 3/4;
+}
+
+.explore-showchase-bg {
+  grid-column: 2/5;
+  grid-row: 3/4;
+}
+
+.thousand-sunny {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.main-video-home {
+  grid-column: 1/5;
+  grid-row: 1/3;
+}
+
+.svg-text {
+  grid-column: 1/5;
+  grid-row: 1/3;
+}
+
+.character-showchase {
+  grid-column: 1/5;
+  grid-row: 4/5;
+  padding-bottom: 5rem;
+}
+
+.character-showchase-button {
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+
+/* about explore html style ------------------------------------------------------------ */
+
+.main-container-about {
+  gap: 5rem;
+}
+
+/* page 1 -------------------------------- */
+
+.page-1-title-about h1 {
+  font-size: calc(4rem + 1vw);
+}
+
+.page-1-title-about p {
+  font-size: calc(1rem + 0.5vw);
+}
+
+/* page 2 -------------------------------- */
+
+.page-2-home-grid {
+  grid-template-rows: none;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.page-2-image-title-container,
+.page-2-image-title-container-2 {
+  padding-right: 0rem;
+}
+
+.page-2-image-title-container h1,
+.page-2-image-title-container-2 h1 {
+  font-size: calc(4rem + 1vw);
+}
+
+.page-2-image-title-container p,
+.page-2-image-title-container-2 p {
+  font-size: calc(1rem + 0.5vw);
+}
+
+.page-2-image-1 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+
+.page-2-image-2 {
+  grid-column: 2/4;
+}
+
+.page-2-image-3 {
+  grid-column: 2/4;
+}
+
+.page-2-image-title {
+  grid-column: 1/4;
+}
+
+.page-2-image-title-2 {
+  grid-column: 1/2;
+  display: none;
+}
+
+.page-2-image-4 {
+  grid-column: 1/4;
+}
+
+/* page 3 -------------------------------- */
+
+.page-3-home-grid {
+  grid-template-rows: none;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.page-3-image-title-container {
+  padding-right: 0rem;
+}
+
+.page-3-image-title-container h1 {
+  font-size: calc(4rem + 1vw);
+}
+
+.page-3-image-title-container p {
+  font-size: calc(1rem + 0.5vw);
+}
+
+.page-3-image-title {
+  grid-column: 1/5;
+}
+
+.page-3-image-1 {
+  grid-column: 1/2;
+  grid-row: 2/4;
+}
+
+.page-3-image-2 {
+  grid-column: 2/3;
+}
+
+.page-3-image-3 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+.page-3-image-4 {
+  grid-column: 3/5;
+}
+
+.page-3-image-5 {
+  grid-column: 2/5;
+}
+
+.page-3-image-6 {
+  grid-column: 2/5;
+}
+
+/* page 4 -------------------------------- */
+
+.page-4-title-about {
+  bottom: 10rem;
+}
+
+.page-4-title-about h1 {
+  font-size: calc(6rem + 1vw);
+}
+
+.page-4-title-about p {
+  font-size: calc(1rem + 1vw);
+}
+
+.page-4-title-button-about h6 {
+  font-size: calc(1rem + 0.5vw);
+}
+
+/* CHARACTER SHOWCHASE HTML SECTION  ------------------------------------------*/
+
+.main-container-showchase {
+  padding-bottom: 3rem;
+}
+
+/* arrow  ------------------------------------------*/
+
+.arrow-left-img-showchase,
+.arrow-right-img-showchase {
+  width: 20%;
+}
+
+/* home sections */
+
+#home-showchase {
+  width: auto;
+}
+
+.logo-title-showchase h5,
+.navbar-showchase h5 {
+  font-size: calc(1rem + 0.5vw);
+}
+
+.home-grid-container-showchase {
+  grid-template-columns: 40% 20% 20%;
+  grid-template-rows: 5% 30% 30% 30%;
+}
+
+.main-title-showchase h1 {
+  font-size: calc(4rem + 1vw);
+}
+
+.main-title-showchase p {
+  font-size: calc(1rem + 0.5vw);
+}
+
+.bounty-poster-img-showchase {
+  width: 30%;
+}
+
+.bounty-poster-description-showchase h1 {
+  font-size: calc(3rem + 1vw);
+}
+
+.bounty-poster-description-showchase p {
+  font-size: calc(2rem + 0.5vw);
+}
+
+.about-me-showchase h1 {
+  font-size: calc(3rem + 1vw);
+}
+
+.about-me-showchase p {
+  font-size: calc(1rem + 0.5vw);
+}
+
+/* grid control position --------------------------------------------------------------- */
+
+.logo-title-showchase {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.arrow-left-showchase {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.arrow-right-showchase {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.navbar-showchase {
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+
+.main-image-showchase {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.main-video-showchase {
+  grid-column: 1/5;
+  grid-row: 2/3;
+}
+
+.main-title-showchase {
+  grid-column: 1/5;
+  grid-row: 2/3;
+  z-index: 10;
+}
+
+.bounty-poster-showchase {
+  grid-column: 1/3;
+  grid-row: 4/5;
+}
+
+.about-me-showchase {
+  grid-column: 2/5;
+  grid-row: 3/4;
+}
+
+.pirates-flag-showchase {
+  grid-column: 3/5;
+  grid-row: 4/5;
+}
