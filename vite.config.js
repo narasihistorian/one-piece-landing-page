@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import path, { resolve } from "path";
 
 export default defineConfig({
-  base: "./",
+  base: "/one-piece-landing-page/",
   resolve: {
     alias: {
       "@DrukFont": path.resolve(__dirname, "/font/druk-font.otf"),
