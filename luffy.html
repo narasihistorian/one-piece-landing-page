@@ -2,19 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Monkey D Luffy</title>
-
-    <!-- link css ----------------------------------------------------------->
-
-    <link rel="stylesheet" href="./css/fullhd.css" />
-    <link
-      rel="stylesheet"
-      href="./css/desktop.css"
-      media="(max-width: 1280px)"
-    />
-    <link rel="stylesheet" href="./css/tab.css" media="(max-width: 1024px)" />
-    <link rel="stylesheet" href="./css/tab.css" media="(max-width: 720px)" />
+    <title>Vite App</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,48 +14,99 @@
     />
   </head>
   <body data-barba="wrapper">
-    <main
-      data-barba="container"
-      data-barba-namespace="luffy"
-      class="main-container-showchase"
-    >
-      <section id="home-showchase">
+    <div class="video-background">
+      <video
+        loading="lazy"
+        src="/videos/strawhat pirates main home video.mp4"
+        autoplay
+        loop
+        muted
+      ></video>
+      <div class="video-background-mask"></div>
+    </div>
+
+    <main class="main-container">
+      <!-- Navbar -->
+      <nav>
+        <div class="logo-mask">
+          <img src="/img/png logo pure.png" alt="" />
+          <div class="logo-navbar-mask">
+            <h2 class="logo-navbar">
+              <a href="/">Straw Hat Pirates</a>
+            </h2>
+          </div>
+        </div>
+        <div class="bg-navbar">
+          <div class="about-project">
+            <h1>ABOUT THIS PROJECT</h1>
+            <p>
+              Hey Gretting, let me introduce you into my project. Last weeks I
+              found in the instagram @dailywebdesign about competition to build
+              web Design with anime theme. So based on the anime genre, I decide
+              to choose my favorite anime, One Piece as a theme which is I used
+              into my Project. The storytellling about my project is simple, I
+              just tell main character about Straw Hat crew which is main
+              Character in the One piece World.
+            </p>
+            <p>
+              My main tools for this project, I've using Figma to design
+              wireframe and the structure my project, then I'm convert my design
+              prototype into real world project using pure HTML, CSS, and
+              javascript, GSAP and BarbaJS library to create interactive
+              animation on my project.
+            </p>
+
+            <p>
+              My style in this project I'm using Grid box mixed page transition
+              for better user experience and put interactive, simple and visual
+              pleasing assets which already responsive on fullHD (1920px),
+              desktop (1280px), Tab (1024px) and Mobile (720px). Less perfect
+              actually, stil have minor bug but Hopely you enjoy with my
+              project.
+            </p>
+
+            <p>
+              Best Regard :
+              <span
+                ><a
+                  href="https://agungrosyandi.github.io/mystory/"
+                  target="_blank"
+                  >Agung Rosyandi</a
+                ></span
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="burger">
+          <span class="line1"></span>
+          <span class="line2"></span>
+          <span class="line3"></span>
+        </div>
+      </nav>
+
+      <section
+        data-barba="container"
+        data-barba-namespace="luffy"
+        id="home-showchase"
+      >
+        <div class="video-background-character">
+          <video
+            loading="lazy"
+            src="/videos/Luffy video.mp4"
+            autoplay
+            loop
+            muted
+          ></video>
+          <div class="video-background-mask-character"></div>
+        </div>
+
         <div class="home-grid-container-showchase">
-          <div class="logo-title-showchase">
-            <h5>Straw Hat Pirates</h5>
-          </div>
-
-          <a href="./jinbe.html">
-            <div class="arrow-left-showchase">
-              <div class="arrow-left-img-showchase">
-                <img src="./assets/svg/arrow left.svg" alt="" />
-              </div>
-            </div>
-          </a>
-
-          <a href="./zoro.html">
-            <div class="arrow-right-showchase">
-              <div class="arrow-right-img-showchase">
-                <img src="./assets/svg/arrow right.svg" alt="" />
-              </div>
-            </div>
-          </a>
-
-          <div class="navbar-showchase">
-            <h5><a href="./">Main Menu</a></h5>
-          </div>
-
-          <div class="main-image-showchase">
-            <div class="main-image-img-showchase">
-              <img src="./assets/img/luffy-showchase-bg.jpg" alt="" />
-            </div>
-          </div>
-
           <div class="main-video-showchase">
             <div class="main-video-background-showchase">
               <video
                 loading="lazy"
-                src="./assets/videos/Luffy video.mp4"
+                src="/videos/Luffy video.mp4"
                 autoplay
                 loop
                 muted
@@ -84,38 +125,28 @@
               believes that being the Pirate King means having the most freedom
               in the world.
             </p>
+            <h5 class="bounty-paragraph">Bounty: 1,111,000,000</h5>
           </div>
 
-          <div class="bounty-poster-showchase">
-            <div class="bounty-poster-img-showchase">
-              <img src="./assets/img/berry png white-01.png" alt="" />
-            </div>
-            <div class="bounty-poster-description-showchase">
-              <h1>Bounty</h1>
-              <p>3,000,000,000</p>
-            </div>
+          <div class="arrow-left-showchase">
+            <a href="./jinbe.html">
+              <div class="arrow-left-img-showchase">
+                <img src="/svg/arrow left.svg" alt="" />
+              </div>
+            </a>
           </div>
 
-          <div class="about-me-showchase">
-            <h1>About me</h1>
-            <p>If you don't take risk you can't create a future.</p>
-          </div>
-
-          <div class="pirates-flag-showchase">
-            <div class="pirates-flag-img-showchase">
-              <img src="./assets/img/luffy-pirates-flag.jpg" alt="" />
-            </div>
+          <div class="arrow-right-showchase">
+            <a href="./zoro.html">
+              <div class="arrow-right-img-showchase">
+                <img src="/svg/arrow right.svg" alt="" />
+              </div>
+            </a>
           </div>
         </div>
       </section>
     </main>
 
-    <script src="https://unpkg.com/split-type"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
-    <script src="https://unpkg.com/split-type"></script>
-    <script src="https://unpkg.com/@barba/core"></script>
-    <script src="./app.js"></script>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>

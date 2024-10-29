@@ -2,19 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
-
-    <!-- link css ----------------------------------------------------------->
-
-    <link rel="stylesheet" href="./css/fullhd.css" />
-    <link
-      rel="stylesheet"
-      href="./css/desktop.css"
-      media="(max-width: 1280px)"
-    />
-    <link rel="stylesheet" href="./css/tab.css" media="(max-width: 1024px)" />
-    <link rel="stylesheet" href="./css/mobile.css" media="(max-width: 720px)" />
+    <title>Vite App</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,160 +14,187 @@
     />
   </head>
   <body data-barba="wrapper">
-    <main
-      data-barba="container"
-      data-barba-namespace="about"
-      class="main-container-about"
-    >
-      <!-- page 1 ---------------------------------------------------------------->
+    <div class="video-background">
+      <video
+        loading="lazy"
+        src="/videos/strawhat pirates main home video.mp4"
+        autoplay
+        loop
+        muted
+      ></video>
+      <div class="video-background-mask"></div>
+    </div>
 
-      <section id="page-1-about">
-        <div class="page-1-home-about">
-          <div class="page-1-title-container-about">
-            <div class="page-1-img-about">
-              <img src="./assets//img//page-3-black-and-white-3.jpg" alt="" />
-            </div>
-            <div class="page-1-title-about">
-              <h1>Our History Begin</h1>
-              <p>
-                Unlike any other. Luffy is a young adventurer who has longed for
-                a life of freedom ever since he can remember. He sets off from
-                his small village on a perilous journey to find the legendary
-                fabled treasure, ONE PIECE, to become King of the Pirates! But
-                in order to find the ultimate prize, he’ll need to assemble the
-                crew he’s always wanted before finding a ship to sail, searching
-                every inch of the vast blue seas, outpacing the Marines and
-                outwitting dangerous rivals at every turn.
-              </p>
-            </div>
+    <main class="main-container">
+      <!-- Navbar -->
+      <nav>
+        <div class="logo-mask">
+          <img src="/img/png logo pure.png" alt="" />
+          <div class="logo-navbar-mask">
+            <h2 class="logo-navbar">
+              <a href="/">Straw Hat Pirates</a>
+            </h2>
           </div>
         </div>
-      </section>
+        <div class="bg-navbar">
+          <div class="about-project">
+            <h1>ABOUT THIS PROJECT</h1>
+            <p>
+              Hey Gretting, let me introduce you into my project. Last weeks I
+              found in the instagram @dailywebdesign about competition to build
+              web Design with anime theme. So based on the anime genre, I decide
+              to choose my favorite anime, One Piece as a theme which is I used
+              into my Project. The storytellling about my project is simple, I
+              just tell main character about Straw Hat crew which is main
+              Character in the One piece World.
+            </p>
+            <p>
+              My main tools for this project, I've using Figma to design
+              wireframe and the structure my project, then I'm convert my design
+              prototype into real world project using pure HTML, CSS, and
+              javascript, GSAP and BarbaJS library to create interactive
+              animation on my project.
+            </p>
 
-      <!-- page 2 ---------------------------------------------------------------->
+            <p>
+              My style in this project I'm using Grid box mixed page transition
+              for better user experience and put interactive, simple and visual
+              pleasing assets which already responsive on fullHD (1920px),
+              desktop (1280px), Tab (1024px) and Mobile (720px). Less perfect
+              actually, stil have minor bug but Hopely you enjoy with my
+              project.
+            </p>
 
-      <section id="page-2-grid">
-        <div class="page-2-home-grid">
+            <p>
+              Best Regard :
+              <span
+                ><a
+                  href="https://agungrosyandi.github.io/mystory/"
+                  target="_blank"
+                  >Agung Rosyandi</a
+                ></span
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="burger">
+          <span class="line1"></span>
+          <span class="line2"></span>
+          <span class="line3"></span>
+        </div>
+      </nav>
+
+      <!-- page 1 ---------------------------------------------------------------->
+
+      <section
+        data-barba="container"
+        data-barba-namespace="about"
+        id="page-about"
+      >
+        <div class="page-about-container">
+          <div class="page-1-title-about">
+            <h1>Our History Begin</h1>
+            <p>
+              Unlike any other. Luffy is a young adventurer who has longed for a
+              life of freedom ever since he can remember. He sets off from his
+              small village on a perilous journey to find the legendary fabled
+              treasure, ONE PIECE, to become King of the Pirates! But in order
+              to find the ultimate prize, he’ll need to assemble the crew he’s
+              always wanted before finding a ship to sail, searching every inch
+              of the vast blue seas, outpacing the Marines and outwitting
+              dangerous rivals at every turn.
+            </p>
+          </div>
+
+          <!-- page 2 ---------------------------------------------------------------->
+
           <div class="page-2-image-1">
-            <div class="page-2-image-1-img">
-              <img src="./assets//img//page-4-black-and-white-8.jpg" alt="" />
-            </div>
+            <img src="/img//page-4-black-and-white-11.jpg" alt="" />
           </div>
 
           <div class="page-2-image-2">
-            <div class="page-2-image-2-img">
-              <img src="./assets//img//page-4-black-and-white-9.jpg" alt="" />
-            </div>
-          </div>
-
-          <div class="page-2-image-3">
-            <div class="page-2-image-3-img">
-              <img src="./assets//img//page-4-black-and-white-17.jpg" alt="" />
-            </div>
+            <img src="/img//page-4-black-and-white-13.jpg" alt="" />
           </div>
 
           <div class="page-2-image-title">
-            <div class="page-2-image-title-container">
-              <h1>Friendship & Having Fun</h1>
-              <p>
-                Luffy does not seem to mind if someone he wants to recruit has a
-                profession or not. He allowed Usopp to join, and later on names
-                him the team's sniper, and considered Vivi and Karoo members
-                even though her only "profession" would be a princess. Luffy's
-                tendency to ask people who interest him to join often led him to
-                attempt to recruit bizarre creatures into his crew at a whim
-                (such as Chopper, Brook, Unigaro, MocDonald, and Kin'emon's
-                severed legs; the latter three never joined the crew
-                eventually), which would annoy the rest of the crew, prompting
-                them to snap at him to stop.
-              </p>
-            </div>
+            <h1>Friendship & Having Fun</h1>
+            <p>
+              Luffy does not seem to mind if someone he wants to recruit has a
+              profession or not. He allowed Usopp to join, and later on names
+              him the team's sniper, and considered Vivi and Karoo members even
+              though her only "profession" would be a princess. Luffy's tendency
+              to ask people who interest him to join often led him to attempt to
+              recruit bizarre creatures into his crew at a whim (such as
+              Chopper, Brook, Unigaro, MocDonald, and Kin'emon's severed legs;
+              the latter three never joined the crew eventually), which would
+              annoy the rest of the crew, prompting them to snap at him to stop.
+            </p>
           </div>
 
           <div class="page-2-image-title-2">
-            <div class="page-2-image-title-container-2">
-              <h1>Comitment</h1>
-              <p>
-                If a Straw Hat crew member leaves the crew without Luffy's
-                permission, Luffy does his best to recruit them back. So far,
-                Nami, Robin, and Usopp have all chosen to officially leave the
-                crew in the past, before returning. Additionally, Chopper and
-                Sanji have been coerced by third parties to leave the crew
-                against their wishes, with Chopper returning soon afterwards,
-                and Sanji leaving for about a week.
-              </p>
-            </div>
+            <h1>Comitment</h1>
+            <p>
+              If a Straw Hat crew member leaves the crew without Luffy's
+              permission, Luffy does his best to recruit them back. So far,
+              Nami, Robin, and Usopp have all chosen to officially leave the
+              crew in the past, before returning. Additionally, Chopper and
+              Sanji have been coerced by third parties to leave the crew against
+              their wishes, with Chopper returning soon afterwards, and Sanji
+              leaving for about a week.
+            </p>
           </div>
 
-          <div class="page-2-image-4">
-            <div class="page-2-image-4-img">
-              <img src="./assets//img//page-4-black-and-white-15.jpg" alt="" />
-            </div>
+          <div class="page-2-image-3">
+            <img src="/img//page-4-black-and-white-16.jpg" alt="" />
           </div>
-        </div>
-      </section>
 
-      <!-- page 3 ---------------------------------------------------------------->
+          <!-- page 3 ---------------------------------------------------------------->
 
-      <section id="page-3-grid">
-        <div class="page-3-home-grid">
           <div class="page-3-image-title">
-            <div class="page-3-image-title-container">
-              <h1>Adventurer</h1>
-              <p>
-                While traveling, the Straw Hat Pirates have mostly just followed
-                the route that their Log set out for them; the crew would travel
-                from one island to another in order without backtracking or
-                getting scattered by certain situations or forced to go off
-                course—unless someone is taken away, the crew's visiting the
-                island delays their voyage (i.e., partying on Conomi Islands or
-                the national celebration in Arabasta), or leaving the Grand
-                Line. It is not until Water 7 that things begin to shift from
-                this 'formula'; the crew had to leave Water 7 to Enies Lobby to
-                rescue Robin.
-              </p>
-            </div>
+            <h1>Adventurer</h1>
+            <p>
+              While traveling, the Straw Hat Pirates have mostly just followed
+              the route that their Log set out for them; the crew would travel
+              from one island to another in order without backtracking or
+              getting scattered by certain situations or forced to go off
+              course—unless someone is taken away, the crew's visiting the
+              island delays their voyage (i.e., partying on Conomi Islands or
+              the national celebration in Arabasta), or leaving the Grand Line.
+              It is not until Water 7 that things begin to shift from this
+              'formula'; the crew had to leave Water 7 to Enies Lobby to rescue
+              Robin.
+            </p>
           </div>
 
           <div class="page-3-image-1">
-            <div class="page-3-image-1-img">
-              <img src="./assets//img//page-5-black-and-white-8.jpg" alt="" />
-            </div>
+            <img src="/img//page-5-black-and-white-5.jpg" alt="" />
           </div>
 
           <div class="page-3-image-2">
-            <div class="page-3-image-2-img">
-              <img src="./assets//img//page-5-black-and-white-6.jpg" alt="" />
-            </div>
+            <img src="/img//page-5-black-and-white-7.jpg" alt="" />
           </div>
-        </div>
-      </section>
 
-      <!-- page 4 ---------------------------------------------------------------->
+          <!-- page 4 ---------------------------------------------------------------->
 
-      <section id="page-4-about">
-        <div class="page-4-home-about">
-          <div class="page-4-title-container-about">
-            <div class="page-4-title-about">
-              <h1>Our Journey still not over</h1>
-              <p>to be continue ........</p>
-              <div class="page-4-title-button-about">
-                <a href="./"><h6>Back to Main Home</h6></a>
-              </div>
-            </div>
-            <div class="page-4-img-about">
-              <img src="./assets//img//page-closing-background-3.jpg" alt="" />
+          <div class="page-4-img-about">
+            <img src="/img//page-closing-background-3.jpg" alt="" />
+          </div>
+
+          <div class="page-4-title-about">
+            <h1>Our Journey still not over</h1>
+            <p>
+              In exploring the rough seas, my crew is capable to accompany our
+              journey until the end, let take a look our crew the future of the
+              king Pirates
+            </p>
+            <div class="page-4-title-button-about">
+              <a href="./luffy.html"><h6>Explore our crew</h6></a>
             </div>
           </div>
         </div>
       </section>
     </main>
-
-    <script src="https://unpkg.com/split-type"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
-    <script src="https://unpkg.com/@barba/core"></script>
-    <script src="./app.js"></script>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
