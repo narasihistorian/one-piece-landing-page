@@ -3,10 +3,6 @@
     width: 3%;
   }
 
-  .logo-navbar a {
-    font-size: calc(0.7rem + 0.5vw);
-  }
-
   .about-project h1 {
     font-size: calc(5rem + 0.5vw);
   }
@@ -18,11 +14,7 @@
   /* home sections ---------------------------------------------------------------- */
 
   .main-title h1 {
-    font-size: calc(13rem + 0.5vw);
-  }
-
-  .main-button-home a {
-    font-size: calc(1rem + 0.5vw);
+    font-size: calc(11rem + 0.5vw);
   }
 
   /* grid controller page 1 ------------------------------------------*/
@@ -86,7 +78,6 @@
 
   .main-video-showchase {
     grid-column: 1/3;
-    grid-row: 1/5;
   }
 
   .main-title-showchase {
@@ -112,6 +103,8 @@
     font-size: calc(4rem + 1vw);
   }
 
+  .main-button-home a,
+  .logo-navbar a,
   .main-title p,
   .page-1-title-about p,
   .page-2-image-title p,
@@ -120,7 +113,7 @@
   .page-4-title-about p,
   .page-4-title-button-about h6,
   .main-title-showchase p {
-    font-size: calc(0.7rem + 0.5vw);
-    line-height: 3rem;
+    font-size: calc(0.5rem + 0.5vw);
+    line-height: 2rem;
   }
 }

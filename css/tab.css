@@ -3,10 +3,6 @@
     width: 8%;
   }
 
-  .logo-navbar a {
-    font-size: calc(1.5rem + 0.5vw);
-  }
-
   .about-project h1 {
     font-size: calc(5rem + 0.5vw);
   }
@@ -25,11 +21,11 @@
   /* home sections ---------------------------------------------------------------- */
 
   .main-title h1 {
-    font-size: calc(11rem + 0.5vw);
+    font-size: calc(9rem + 0.5vw);
   }
 
-  .main-button-home a {
-    font-size: calc(1.5rem + 0.5vw);
+  .main-title p {
+    padding: 0 5rem;
   }
 
   /* grid controller page 1 ------------------------------------------*/
@@ -79,10 +75,6 @@
 
   /* CHARACTER SHOWCHASE HTML SECTION  ------------------------------------------*/
 
-  #home-showchase {
-    height: 120vh;
-  }
-
   .arrow-left-img-showchase,
   .arrow-right-img-showchase {
     width: 15%;
@@ -96,12 +88,13 @@
   .main-title-showchase {
     align-items: center;
     text-align: center;
-    padding: 5rem;
+    padding: 2rem;
   }
 
   .home-grid-container-showchase {
     grid-template-columns: repeat(4, 1fr);
     gap: 3rem;
+    margin: 15rem auto;
   }
 
   /* grid control position --------------------------------------------------------------- */
@@ -130,9 +123,11 @@
   .page-3-image-title h1,
   .page-4-title-about h1,
   .main-title-showchase h1 {
-    font-size: calc(7rem + 1vw);
+    font-size: calc(5rem + 1vw);
   }
 
+  .main-button-home a,
+  .logo-navbar a,
   .main-title p,
   .page-1-title-about p,
   .page-2-image-title p,

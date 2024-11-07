@@ -3,10 +3,6 @@
     width: 10%;
   }
 
-  .logo-navbar a {
-    font-size: calc(1rem + 0.5vw);
-  }
-
   .about-project {
     width: 100vw;
     height: 100vh;
@@ -27,69 +23,18 @@
     font-size: calc(8rem + 0.5vw);
   }
 
-  .main-button-home a {
-    font-size: calc(1rem + 0.5vw);
-  }
-
-  /* grid controller page 1 ------------------------------------------*/
-
-  .page-1-title-about {
-    grid-column: 1/5;
-  }
-
-  .page-2-image-1 {
-    grid-column: 1/5;
-  }
-  .page-2-image-2 {
-    grid-column: 1/5;
-  }
-
-  .page-2-image-title {
-    grid-column: 1/5;
-  }
-
-  .page-2-image-title-2 {
-    grid-column: 1/5;
-  }
-
-  .page-2-image-3 {
-    grid-column: 1/5;
-  }
-
-  .page-3-image-title {
-    grid-column: 1/5;
-  }
-
-  .page-3-image-1 {
-    grid-column: 1/5;
-  }
-
-  .page-3-image-2 {
-    grid-column: 1/5;
-  }
-
-  .page-4-img-about {
-    grid-column: 1/5;
-  }
-
-  .page-4-title-about {
-    grid-column: 1/5;
+  .main-title p {
+    padding: 0 2rem;
   }
 
   /* CHARACTER SHOWCHASE HTML SECTION  ------------------------------------------*/
 
-  .main-title-showchase {
-    padding: 5rem 2rem;
-  }
-
-  .arrow-left-img-showchase,
-  .arrow-right-img-showchase {
-    width: 15%;
-  }
-
   .main-title-showchase h5 {
     font-size: calc(1.7rem + 0.5vw);
-    line-height: 3rem;
+  }
+
+  .home-grid-container-showchase {
+    margin: 10rem auto;
   }
 
   /* wrap all css SETTING GSAP ------------------------------------------ */
@@ -100,9 +45,11 @@
   .page-3-image-title h1,
   .page-4-title-about h1,
   .main-title-showchase h1 {
-    font-size: calc(5rem + 1vw);
+    font-size: calc(3rem + 1vw);
   }
 
+  .main-button-home a,
+  .logo-navbar a,
   .main-title p,
   .page-1-title-about p,
   .page-2-image-title p,
@@ -113,5 +60,9 @@
   .main-title-showchase p {
     font-size: calc(1rem + 0.5vw);
     line-height: 2rem;
+  }
+
+  .main-title-showchase h1 {
+    font-size: calc(6rem + 1vw);
   }
 }
